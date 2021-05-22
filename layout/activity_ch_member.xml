@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ch_member"
+    android:background="@drawable/art">
+
+    <Button
+        android:id="@+id/member"
+        android:layout_width="265dp"
+        android:layout_height="78dp"
+        android:background="@drawable/ret_but"
+        android:text="MEMBER"
+        android:textColor="@color/red"
+        android:fontFamily="@font/comic"
+        android:textSize="22dp"
+        android:textAlignment="gravity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.528" />
+
+    <Button
+        android:id="@+id/org"
+        android:layout_width="262dp"
+        android:layout_height="74dp"
+        android:layout_marginBottom="188dp"
+        android:background="@drawable/ret_but"
+        android:text="ORGANIZER"
+        android:textSize="22dp"
+        android:textColor="@color/red"
+        android:fontFamily="@font/comic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.563"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
